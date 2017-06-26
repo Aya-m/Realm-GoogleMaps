@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="82" id="GhD-9a-ltz" customClass="RestaurantsListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GhD-9a-ltz" id="6SM-cy-Mhi">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oij-d8-EkV">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="h5r-HT-zZA"/>
+                            <constraint firstAttribute="width" constant="80" id="lIX-RP-HoG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カテゴリーカテゴリーカテゴリーカテゴ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rka-F0-U93">
+                        <rect key="frame" x="88" y="8" width="216" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="SkZ-1X-fbM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店名店名店名店名店名店名店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPQ-Kv-mWB">
+                        <rect key="frame" x="88" y="29" width="221" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="kW3-tr-AHi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TelTelTelTelTelTelTelTelTelTelTelTe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQy-p7-MAb">
+                        <rect key="frame" x="88" y="55" width="223" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="81d-7r-K0e"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZQy-p7-MAb" firstAttribute="leading" secondItem="oij-d8-EkV" secondAttribute="trailing" constant="8" id="1z1-Lm-pCA"/>
+                    <constraint firstItem="VPQ-Kv-mWB" firstAttribute="leading" secondItem="oij-d8-EkV" secondAttribute="trailing" constant="8" id="IZJ-Ku-7gT"/>
+                    <constraint firstItem="oij-d8-EkV" firstAttribute="top" secondItem="6SM-cy-Mhi" secondAttribute="top" id="Mw3-Yi-UjT"/>
+                    <constraint firstItem="ZQy-p7-MAb" firstAttribute="top" secondItem="VPQ-Kv-mWB" secondAttribute="bottom" constant="5" id="Wrn-dL-rzq"/>
+                    <constraint firstItem="Rka-F0-U93" firstAttribute="top" secondItem="6SM-cy-Mhi" secondAttribute="top" constant="8" id="c2b-jd-JD7"/>
+                    <constraint firstItem="VPQ-Kv-mWB" firstAttribute="top" secondItem="Rka-F0-U93" secondAttribute="bottom" constant="8" id="hvg-6N-788"/>
+                    <constraint firstItem="oij-d8-EkV" firstAttribute="leading" secondItem="6SM-cy-Mhi" secondAttribute="leading" id="r1B-bH-GI2"/>
+                    <constraint firstItem="Rka-F0-U93" firstAttribute="leading" secondItem="oij-d8-EkV" secondAttribute="trailing" constant="8" id="tTE-0i-Iyh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryLabel" destination="Rka-F0-U93" id="K3f-Hk-SiJ"/>
+                <outlet property="nameLabel" destination="VPQ-Kv-mWB" id="rXp-29-5pg"/>
+                <outlet property="restaurantsImage" destination="oij-d8-EkV" id="f4s-nT-BZt"/>
+                <outlet property="telLabel" destination="ZQy-p7-MAb" id="fyG-8x-hed"/>
+            </connections>
+            <point key="canvasLocation" x="242" y="212"/>
+        </tableViewCell>
+    </objects>
+</document>

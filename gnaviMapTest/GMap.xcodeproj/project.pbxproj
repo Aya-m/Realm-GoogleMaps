@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334CA922322A595209AB8A1E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC1BF76C3F96C92FDF00F32 /* libPods.a */; };
+		B9BB9B421BBBAE700027D8E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB9B411BBBAE700027D8E0 /* main.m */; };
+		B9BB9B451BBBAE700027D8E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB9B441BBBAE700027D8E0 /* AppDelegate.m */; };
+		B9BB9B481BBBAE700027D8E0 /* RestaurantsResearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB9B471BBBAE700027D8E0 /* RestaurantsResearchViewController.m */; };
+		B9BB9B4B1BBBAE700027D8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BB9B491BBBAE700027D8E0 /* Main.storyboard */; };
+		B9BB9B4D1BBBAE700027D8E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BB9B4C1BBBAE700027D8E0 /* Images.xcassets */; };
+		B9BB9B501BBBAE700027D8E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9BB9B4E1BBBAE700027D8E0 /* LaunchScreen.xib */; };
+		B9BB9B5C1BBBAE700027D8E0 /* GMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB9B5B1BBBAE700027D8E0 /* GMapTests.m */; };
+		B9BB9B661BBBC60E0027D8E0 /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B9BB9B651BBBC60E0027D8E0 /* noImage.png */; };
+		B9BB9B6B1BBBCBF40027D8E0 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB9B681BBBCBF40027D8E0 /* Config.m */; };
+		B9BB9B6C1BBBCBF40027D8E0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB9B6A1BBBCBF40027D8E0 /* LoadingView.m */; };
+		B9BB9B6E1BBBCBFB0027D8E0 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9BB9B6D1BBBCBFB0027D8E0 /* LoadingView.xib */; };
+		B9BB9B701BBBDF6C0027D8E0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB9B6F1BBBDF6C0027D8E0 /* MapKit.framework */; };
+		CFB9D8DB1D17B15D00E9D8AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB9D8DA1D17B15D00E9D8AC /* Realm.framework */; };
+		CFB9D8DC1D17B15D00E9D8AC /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFB9D8DA1D17B15D00E9D8AC /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFB9D8E21D17BCF800E9D8AC /* Restaurants.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB9D8E11D17BCF800E9D8AC /* Restaurants.m */; };
+		CFD7D2D61D220B670029E18F /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD7D2D51D220B670029E18F /* Favorite.m */; };
+		CFD9537A1D191ACD00892A5C /* RestaurantsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD953791D191ACD00892A5C /* RestaurantsListViewController.m */; };
+		CFD9537D1D192BAA00892A5C /* RestaurantsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD9537C1D192BAA00892A5C /* RestaurantsListTableViewCell.m */; };
+		CFD9537F1D192BCA00892A5C /* RestaurantsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD9537E1D192BCA00892A5C /* RestaurantsListTableViewCell.xib */; };
+		CFD953821D19362300892A5C /* RestrantsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD953811D19362300892A5C /* RestrantsMapViewController.m */; };
+		CFDA302E1D1A6A1100F77848 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA302D1D1A6A1100F77848 /* MapAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9BB9B561BBBAE700027D8E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BB9B341BBBAE700027D8E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BB9B3B1BBBAE700027D8E0;
+			remoteInfo = GMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFB9D8DD1D17B15E00E9D8AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFB9D8DC1D17B15D00E9D8AC /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20657BE9EBB49CA5F9668637 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B9BB9B3C1BBBAE700027D8E0 /* GMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BB9B401BBBAE700027D8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BB9B411BBBAE700027D8E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BB9B431BBBAE700027D8E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9BB9B441BBBAE700027D8E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9BB9B461BBBAE700027D8E0 /* RestaurantsResearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RestaurantsResearchViewController.h; path = Controllers/RestaurantsResearchViewController.h; sourceTree = "<group>"; };
+		B9BB9B471BBBAE700027D8E0 /* RestaurantsResearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RestaurantsResearchViewController.m; path = Controllers/RestaurantsResearchViewController.m; sourceTree = "<group>"; };
+		B9BB9B4A1BBBAE700027D8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9BB9B4C1BBBAE700027D8E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9BB9B4F1BBBAE700027D8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B9BB9B551BBBAE700027D8E0 /* GMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BB9B5A1BBBAE700027D8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BB9B5B1BBBAE700027D8E0 /* GMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMapTests.m; sourceTree = "<group>"; };
+		B9BB9B651BBBC60E0027D8E0 /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noImage.png; path = Resources/noImage.png; sourceTree = "<group>"; };
+		B9BB9B671BBBCBF40027D8E0 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Config/Config.h; sourceTree = "<group>"; };
+		B9BB9B681BBBCBF40027D8E0 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Config/Config.m; sourceTree = "<group>"; };
+		B9BB9B691BBBCBF40027D8E0 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = Common/LoadingView.h; sourceTree = "<group>"; };
+		B9BB9B6A1BBBCBF40027D8E0 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = Common/LoadingView.m; sourceTree = "<group>"; };
+		B9BB9B6D1BBBCBFB0027D8E0 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingView.xib; path = Views/LoadingView.xib; sourceTree = "<group>"; };
+		B9BB9B6F1BBBDF6C0027D8E0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CFB9D8DA1D17B15D00E9D8AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		CFB9D8E01D17BCF800E9D8AC /* Restaurants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Restaurants.h; path = Models/Restaurants.h; sourceTree = "<group>"; };
+		CFB9D8E11D17BCF800E9D8AC /* Restaurants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Restaurants.m; path = Models/Restaurants.m; sourceTree = "<group>"; };
+		CFD7D2D41D220B670029E18F /* Favorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Favorite.h; path = Models/Favorite.h; sourceTree = "<group>"; };
+		CFD7D2D51D220B670029E18F /* Favorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Favorite.m; path = Models/Favorite.m; sourceTree = "<group>"; };
+		CFD953781D191ACD00892A5C /* RestaurantsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantsListViewController.h; path = Controllers/RestaurantsListViewController.h; sourceTree = "<group>"; };
+		CFD953791D191ACD00892A5C /* RestaurantsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantsListViewController.m; path = Controllers/RestaurantsListViewController.m; sourceTree = "<group>"; };
+		CFD9537B1D192BAA00892A5C /* RestaurantsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantsListTableViewCell.h; path = Common/RestaurantsListTableViewCell.h; sourceTree = "<group>"; };
+		CFD9537C1D192BAA00892A5C /* RestaurantsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantsListTableViewCell.m; path = Common/RestaurantsListTableViewCell.m; sourceTree = "<group>"; };
+		CFD9537E1D192BCA00892A5C /* RestaurantsListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantsListTableViewCell.xib; path = Views/RestaurantsListTableViewCell.xib; sourceTree = "<group>"; };
+		CFD953801D19362300892A5C /* RestrantsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestrantsMapViewController.h; path = Controllers/RestrantsMapViewController.h; sourceTree = "<group>"; };
+		CFD953811D19362300892A5C /* RestrantsMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestrantsMapViewController.m; path = Controllers/RestrantsMapViewController.m; sourceTree = "<group>"; };
+		CFDA302C1D1A6A1100F77848 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapAnnotation.h; path = Common/MapAnnotation.h; sourceTree = "<group>"; };
+		CFDA302D1D1A6A1100F77848 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapAnnotation.m; path = Common/MapAnnotation.m; sourceTree = "<group>"; };
+		EA3196FFE56554F9AC102652 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC1BF76C3F96C92FDF00F32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BB9B391BBBAE700027D8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB9D8DB1D17B15D00E9D8AC /* Realm.framework in Frameworks */,
+				B9BB9B701BBBDF6C0027D8E0 /* MapKit.framework in Frameworks */,
+				334CA922322A595209AB8A1E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB9B521BBBAE700027D8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CC4CE0189C1D3B65B47AEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA3196FFE56554F9AC102652 /* Pods.debug.xcconfig */,
+				20657BE9EBB49CA5F9668637 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B48B7019FB92329704444AFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9D8DA1D17B15D00E9D8AC /* Realm.framework */,
+				B9BB9B6F1BBBDF6C0027D8E0 /* MapKit.framework */,
+				FDC1BF76C3F96C92FDF00F32 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9BB9B331BBBAE700027D8E0 = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B3E1BBBAE700027D8E0 /* GMap */,
+				B9BB9B581BBBAE700027D8E0 /* GMapTests */,
+				B9BB9B3D1BBBAE700027D8E0 /* Products */,
+				B0CC4CE0189C1D3B65B47AEF /* Pods */,
+				B48B7019FB92329704444AFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BB9B3D1BBBAE700027D8E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B3C1BBBAE700027D8E0 /* GMap.app */,
+				B9BB9B551BBBAE700027D8E0 /* GMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BB9B3E1BBBAE700027D8E0 /* GMap */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B431BBBAE700027D8E0 /* AppDelegate.h */,
+				B9BB9B441BBBAE700027D8E0 /* AppDelegate.m */,
+				CFB9D8D91D17930C00E9D8AC /* Resources */,
+				CFB9D8D61D1792AE00E9D8AC /* Config */,
+				CFB9D8D71D1792CD00E9D8AC /* Common */,
+				CFB9D8DF1D17BC4C00E9D8AC /* Models */,
+				CFB9D8D81D1792F400E9D8AC /* Views */,
+				CFB9D8D51D17928400E9D8AC /* Controllers */,
+				B9BB9B4C1BBBAE700027D8E0 /* Images.xcassets */,
+				B9BB9B4E1BBBAE700027D8E0 /* LaunchScreen.xib */,
+				B9BB9B3F1BBBAE700027D8E0 /* Supporting Files */,
+			);
+			path = GMap;
+			sourceTree = "<group>";
+		};
+		B9BB9B3F1BBBAE700027D8E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B401BBBAE700027D8E0 /* Info.plist */,
+				B9BB9B411BBBAE700027D8E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9BB9B581BBBAE700027D8E0 /* GMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B5B1BBBAE700027D8E0 /* GMapTests.m */,
+				B9BB9B591BBBAE700027D8E0 /* Supporting Files */,
+			);
+			path = GMapTests;
+			sourceTree = "<group>";
+		};
+		B9BB9B591BBBAE700027D8E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B5A1BBBAE700027D8E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFB9D8D51D17928400E9D8AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B461BBBAE700027D8E0 /* RestaurantsResearchViewController.h */,
+				B9BB9B471BBBAE700027D8E0 /* RestaurantsResearchViewController.m */,
+				CFD953781D191ACD00892A5C /* RestaurantsListViewController.h */,
+				CFD953791D191ACD00892A5C /* RestaurantsListViewController.m */,
+				CFD953801D19362300892A5C /* RestrantsMapViewController.h */,
+				CFD953811D19362300892A5C /* RestrantsMapViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CFB9D8D61D1792AE00E9D8AC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B671BBBCBF40027D8E0 /* Config.h */,
+				B9BB9B681BBBCBF40027D8E0 /* Config.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CFB9D8D71D1792CD00E9D8AC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B691BBBCBF40027D8E0 /* LoadingView.h */,
+				B9BB9B6A1BBBCBF40027D8E0 /* LoadingView.m */,
+				CFD9537B1D192BAA00892A5C /* RestaurantsListTableViewCell.h */,
+				CFD9537C1D192BAA00892A5C /* RestaurantsListTableViewCell.m */,
+				CFDA302C1D1A6A1100F77848 /* MapAnnotation.h */,
+				CFDA302D1D1A6A1100F77848 /* MapAnnotation.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		CFB9D8D81D1792F400E9D8AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B491BBBAE700027D8E0 /* Main.storyboard */,
+				B9BB9B6D1BBBCBFB0027D8E0 /* LoadingView.xib */,
+				CFD9537E1D192BCA00892A5C /* RestaurantsListTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CFB9D8D91D17930C00E9D8AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB9B651BBBC60E0027D8E0 /* noImage.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFB9D8DF1D17BC4C00E9D8AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9D8E01D17BCF800E9D8AC /* Restaurants.h */,
+				CFB9D8E11D17BCF800E9D8AC /* Restaurants.m */,
+				CFD7D2D41D220B670029E18F /* Favorite.h */,
+				CFD7D2D51D220B670029E18F /* Favorite.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BB9B3B1BBBAE700027D8E0 /* GMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BB9B5F1BBBAE700027D8E0 /* Build configuration list for PBXNativeTarget "GMap" */;
+			buildPhases = (
+				12883FBACF8FB213AF762791 /* Check Pods Manifest.lock */,
+				B9BB9B381BBBAE700027D8E0 /* Sources */,
+				B9BB9B391BBBAE700027D8E0 /* Frameworks */,
+				B9BB9B3A1BBBAE700027D8E0 /* Resources */,
+				3663838767436977419ECFD8 /* Copy Pods Resources */,
+				CFB9D8DD1D17B15E00E9D8AC /* Embed Frameworks */,
+				CFB9D8DE1D17BA8500E9D8AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMap;
+			productName = GMap;
+			productReference = B9BB9B3C1BBBAE700027D8E0 /* GMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BB9B541BBBAE700027D8E0 /* GMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BB9B621BBBAE700027D8E0 /* Build configuration list for PBXNativeTarget "GMapTests" */;
+			buildPhases = (
+				B9BB9B511BBBAE700027D8E0 /* Sources */,
+				B9BB9B521BBBAE700027D8E0 /* Frameworks */,
+				B9BB9B531BBBAE700027D8E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BB9B571BBBAE700027D8E0 /* PBXTargetDependency */,
+			);
+			name = GMapTests;
+			productName = GMapTests;
+			productReference = B9BB9B551BBBAE700027D8E0 /* GMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BB9B341BBBAE700027D8E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Aya-m";
+				TargetAttributes = {
+					B9BB9B3B1BBBAE700027D8E0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 332JB543BT;
+					};
+					B9BB9B541BBBAE700027D8E0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B9BB9B3B1BBBAE700027D8E0;
+					};
+				};
+			};
+			buildConfigurationList = B9BB9B371BBBAE700027D8E0 /* Build configuration list for PBXProject "GMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BB9B331BBBAE700027D8E0;
+			productRefGroup = B9BB9B3D1BBBAE700027D8E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BB9B3B1BBBAE700027D8E0 /* GMap */,
+				B9BB9B541BBBAE700027D8E0 /* GMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BB9B3A1BBBAE700027D8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD9537F1D192BCA00892A5C /* RestaurantsListTableViewCell.xib in Resources */,
+				B9BB9B4B1BBBAE700027D8E0 /* Main.storyboard in Resources */,
+				B9BB9B501BBBAE700027D8E0 /* LaunchScreen.xib in Resources */,
+				B9BB9B661BBBC60E0027D8E0 /* noImage.png in Resources */,
+				B9BB9B4D1BBBAE700027D8E0 /* Images.xcassets in Resources */,
+				B9BB9B6E1BBBCBFB0027D8E0 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB9B531BBBAE700027D8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12883FBACF8FB213AF762791 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3663838767436977419ECFD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		CFB9D8DE1D17BA8500E9D8AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BB9B381BBBAE700027D8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD953821D19362300892A5C /* RestrantsMapViewController.m in Sources */,
+				B9BB9B481BBBAE700027D8E0 /* RestaurantsResearchViewController.m in Sources */,
+				B9BB9B6C1BBBCBF40027D8E0 /* LoadingView.m in Sources */,
+				CFB9D8E21D17BCF800E9D8AC /* Restaurants.m in Sources */,
+				B9BB9B6B1BBBCBF40027D8E0 /* Config.m in Sources */,
+				CFD9537D1D192BAA00892A5C /* RestaurantsListTableViewCell.m in Sources */,
+				B9BB9B451BBBAE700027D8E0 /* AppDelegate.m in Sources */,
+				CFD7D2D61D220B670029E18F /* Favorite.m in Sources */,
+				CFD9537A1D191ACD00892A5C /* RestaurantsListViewController.m in Sources */,
+				B9BB9B421BBBAE700027D8E0 /* main.m in Sources */,
+				CFDA302E1D1A6A1100F77848 /* MapAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BB9B511BBBAE700027D8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BB9B5C1BBBAE700027D8E0 /* GMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9BB9B571BBBAE700027D8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BB9B3B1BBBAE700027D8E0 /* GMap */;
+			targetProxy = B9BB9B561BBBAE700027D8E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9BB9B491BBBAE700027D8E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BB9B4A1BBBAE700027D8E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9BB9B4E1BBBAE700027D8E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BB9B4F1BBBAE700027D8E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9BB9B5D1BBBAE700027D8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9BB9B5E1BBBAE700027D8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BB9B601BBBAE700027D8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3196FFE56554F9AC102652 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 332JB543BT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aya-m.GMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9BB9B611BBBAE700027D8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20657BE9EBB49CA5F9668637 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 332JB543BT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aya-m.GMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9BB9B631BBBAE700027D8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aya-m.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMap.app/GMap";
+			};
+			name = Debug;
+		};
+		B9BB9B641BBBAE700027D8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aya-m.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMap.app/GMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BB9B371BBBAE700027D8E0 /* Build configuration list for PBXProject "GMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BB9B5D1BBBAE700027D8E0 /* Debug */,
+				B9BB9B5E1BBBAE700027D8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BB9B5F1BBBAE700027D8E0 /* Build configuration list for PBXNativeTarget "GMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BB9B601BBBAE700027D8E0 /* Debug */,
+				B9BB9B611BBBAE700027D8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BB9B621BBBAE700027D8E0 /* Build configuration list for PBXNativeTarget "GMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BB9B631BBBAE700027D8E0 /* Debug */,
+				B9BB9B641BBBAE700027D8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BB9B341BBBAE700027D8E0 /* Project object */;
+}
